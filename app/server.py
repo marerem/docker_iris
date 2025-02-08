@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import joblib
 import numpy as np
 
-model = joblib.load('app/model.joblib')
+model = joblib.load('app/model.joblib') # load triened model
 
 class_names = np.array(['setosa', 'versicolor', 'virginica'])
 
